@@ -2,7 +2,7 @@ import { BlogPost, Service, Testimonial } from './types';
 
 export const SITE_NAME = "ALC Performance Training";
 export const INSTAGRAM_HANDLE = "@alc_performance_training";
-export const WHATSAPP_LINK = "https://wa.me/5541999999999?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20ALC%20Performance%20e%20quero%20evoluir%20meu%20treino!";
+export const WHATSAPP_LINK = "https://wa.me/5519996282565?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20ALC%20Performance%20e%20quero%20evoluir%20meu%20treino!";
 
 export const NAV_LINKS = [
   { name: 'Home', href: '#home' },
@@ -21,7 +21,7 @@ export const SERVICES: Service[] = [
   {
     id: 'personal-training',
     title: 'Personal Training Presencial',
-    description: 'Treinamento de elite em Curitiba. Biomecânica aplicada e intensidade controlada para extrair o máximo de cada sessão.',
+    description: 'Treinamento de elite em Campinas - SP. Biomecânica aplicada e intensidade controlada para extrair o máximo de cada sessão.',
     icon: 'dumbell'
   },
   {

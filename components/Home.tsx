@@ -166,7 +166,7 @@ const About: React.FC = () => (
           <div className="mt-8 grid grid-cols-2 gap-4">
             <div className="bg-card p-4 rounded-lg border border-zinc-800">
               <span className="block text-3xl font-black text-white mb-1">
-                <AnimatedCounter end={500} prefix="+" />
+                <AnimatedCounter end={50} prefix="+" />
               </span>
               <span className="text-sm text-zinc-500 uppercase">Atletas Atendidos</span>
             </div>
@@ -248,7 +248,7 @@ const Testimonials: React.FC = () => (
         ))}
       </div>
       <div className="mt-12 text-center">
-        <p className="text-zinc-500 mb-6 font-medium">🔥 Junte-se ao time que mais cresce em Curitiba</p>
+        <p className="text-zinc-500 mb-6 font-medium">🔥 Junte-se ao time que mais cresce em Campinas - SP</p>
         <a href={WHATSAPP_LINK} className="inline-block bg-card text-white font-bold py-3 px-8 rounded-full border border-zinc-800 hover:bg-zinc-900 transition-colors">
           Ver mais transformações no Instagram
         </a>

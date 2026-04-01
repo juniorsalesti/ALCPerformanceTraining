@@ -111,13 +111,13 @@ export const Footer: React.FC = () => {
             <h4 className="text-lg font-bold text-white mb-4 uppercase tracking-wider">Contato</h4>
             <div className="space-y-3">
               <a href={WHATSAPP_LINK} target="_blank" rel="noreferrer" className="flex items-center text-zinc-400 hover:text-primary transition-colors">
-                <WhatsAppIcon size={18} className="mr-2" /> (41) 99999-9999
+                <WhatsAppIcon size={18} className="mr-2" /> (19) 99628-2565
               </a>
               <a href={`https://instagram.com/${INSTAGRAM_HANDLE.replace('@', '')}`} target="_blank" rel="noreferrer" className="flex items-center text-zinc-400 hover:text-primary transition-colors">
                 <Instagram size={18} className="mr-2" /> {INSTAGRAM_HANDLE}
               </a>
               <span className="flex items-center text-zinc-400">
-                <MapPin size={18} className="mr-2" /> Curitiba - PR / Online
+                <MapPin size={18} className="mr-2" /> Campinas - SP / Online
               </span>
             </div>
           </div>
@@ -129,9 +129,12 @@ export const Footer: React.FC = () => {
             </button>
           </div>
         </div>
-        <div className="border-t border-zinc-900 pt-8 text-center">
+        <div className="border-t border-zinc-900 pt-8 text-center space-y-2">
           <p className="text-zinc-600 text-sm">
             &copy; {new Date().getFullYear()} {SITE_NAME}. Todos os direitos reservados.
+          </p>
+          <p className="text-zinc-700 text-[10px] uppercase tracking-[0.2em] font-medium">
+            Desenvolvido por <a href="https://portfolio.apexflow.com.br" target="_blank" rel="noreferrer" className="text-zinc-500 hover:text-primary transition-colors">ApexFlow</a>
           </p>
         </div>
       </div>
